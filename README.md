@@ -18,7 +18,7 @@ pip install jupyterlab
 Clone this repository to your local machine or download it as a ZIP file and extract it.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Battlehooks/ricebowl-cifar-100-classif.git
 ```
 
 ### 3. Install Dependencies
@@ -36,8 +36,6 @@ The required libraries are listed in the `requirements.txt` file and include ess
 - NVIDIA CUDA libraries (for GPU acceleration)
 - NumPy, tqdm for progress tracking
 - Networkx for graph-based computations
-
-For full package versions, refer to the `requirements.txt` file provided [here](requirements.txt).
 
 ### 4. Launch Jupyter Lab
 
@@ -58,8 +56,8 @@ This notebook demonstrates the implementation of a custom ResNet18 variant using
 - Performing data loading and preprocessing.
 - Training with support for GPU acceleration (CUDA).
 - Evaluating model performance using various metrics.
-  
-You can modify the notebook according to your dataset and requirements.
+
+You can modify the variable above such as `SEED`, `BEST_MODEL_PTH`, and `MODeL_PTH` to change it as you want
 
 ## GPU Support
 This notebook is configured to leverage GPU support using CUDA for faster training and inference. Ensure you have the necessary NVIDIA drivers installed for GPU acceleration.
