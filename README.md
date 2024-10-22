@@ -64,10 +64,7 @@ This notebook is configured to leverage GPU support using CUDA for faster traini
 
 ## Notes
 - Make sure your GPU and CUDA versions are compatible with the PyTorch version specified in `requirements.txt`.
-- For troubleshooting, refer to the official PyTorch documentation or use the community forums for support.
-
-## License
-This project is licensed under the MIT License.
+- For troubleshooting, refer to the official PyTorch documentation or contact the RiceBowl team.
 
 ## Acknowledgments
 - The ResNet architecture is based on the work of He et al. in "Deep Residual Learning for Image Recognition".
