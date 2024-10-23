@@ -8,7 +8,7 @@ This repository contains a Jupyter Notebook that demonstrates a variant of the R
 To run this notebook, please follow the steps below:
 
 ### 1. Install Python and Jupyter
-Ensure that Python 3.x is installed on your machine along with Jupyter Lab. You can install them using the following commands:
+Ensure that Python 3.10.x is installed on your machine along with Jupyter Lab. You can install them using the following commands:
 
 ```bash
 pip install jupyterlab
